@@ -1,9 +1,6 @@
 import React from "react";
 
-const UserProfile = () => {
-    const name = "Samuel Holden";
-    const bio = "Game designer and developer.";
-
+const UserProfile = ({ name, bio, image }) => {
     return (
         <div
         style={{
@@ -22,7 +19,7 @@ const UserProfile = () => {
         }}
         >
         <img
-        src="https://t4.ftcdn.net/jpg/05/29/61/37/360_F_529613760_ZN7wI9c62MyPeFC8ioliQ2wrVohVuRey.jpg"
+        src={image}
         alt="User profile"
         style={{
             width: "120px",
