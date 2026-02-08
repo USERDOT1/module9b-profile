@@ -11,7 +11,7 @@ const SkillList = ({ skills }) => {
             backgroundColor: "#f18f01",
             fontFamily: "Arial, sans-serif",
             color: "#0b3c5d",
-            textAlign: "centre"
+            textAlign: "center"
         }}
         >
         <h2

@@ -6,15 +6,15 @@ const UserProfile = ({ name, bio, image }) => {
         style={{
             display: "flex",
             flexDirection: "column",
-            alignItems: "centre",
-            justifyContent: "centre",
+            alignItems: "center",
+            justifyContent: "center",
             maxWidth: "320px",
             margin: "40px auto",
             padding: "20px",
             borderRadius: "12px",
             backgroundColor: "#0b3c5d",
             fontFamily: "Arial, sans-serif",
-            textAlign: "centre",
+            textAlign: "center",
             color: "#ffffff"
         }}
         >
